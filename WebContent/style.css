@@ -1,0 +1,24 @@
+@CHARSET "ISO-8859-1";
+#menu{
+width:856px;
+height:39px;
+clear:both;
+margin:auto;
+padding:0px;
+background:url(images/menu_bg.gif) no-repeat center;
+}
+#menu ul{
+list-style:none;padding:0 0 0 30px;margin:0px;display:block;
+}
+#menu ul li{
+list-style:none;display:inline;float:left;width:auto;padding:0px; font-size:15px; line-height:39px; 
+}
+#menu ul li a{
+float:left;text-decoration:none;padding:0px 10px 0 30px; margin:0px;color:#fff;text-align:center;
+}
+#menu ul li a:hover{
+text-decoration:none;color: #fff; background:url(images/menu_bullet.gif) no-repeat left;padding:0px 10px 0 30px;
+}
+#menu ul li a.current{
+float:left;text-decoration:none;background:url(images/menu_bullet.gif) no-repeat left;padding:0px 10px 0 30px;color: #fff;margin:0px;
+}
